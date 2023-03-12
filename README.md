@@ -1,3 +1,3 @@
 # Netflix-Clone-website
 
-this my frist Projct font-end 
+This is my first frontend project.
