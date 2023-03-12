@@ -1,0 +1,1410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.Netflixmain{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.Layout{
+    width: 100%;
+}
+
+.barLayout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .5rem;
+    margin-top: .22rem;
+}
+
+.Netflixlogo{
+    margin-left: 2.3rem;
+    margin-right: auto;
+}
+
+.Netflixlogo img{
+    padding-top: 0;
+    height: 4rem;
+    width: auto;
+
+}
+
+.select-bar{
+    display: flex;
+    gap: 10px;
+}
+
+.select-arrow{
+    border: 1.7px solid rgb(180, 178, 178);
+    padding: .4rem;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.lauguage-drop-down{
+    background: transparent; /* ทำให้โปร่งใส */
+    border: none; 
+    color: white; /* ตัวหนังสือสีขาว */
+}
+
+.lauguage-drop-down:focus{
+    outline: none;
+}
+
+.select-arrow{
+    display: inline-block;
+    position: relative;
+}
+
+#lauguage-select option{
+    background-color: rgb(161, 155, 155);
+}
+
+.login{
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: .25rem .5rem;
+    background-color: #e50914;
+    color: white;
+    border: 1px;
+    border-radius: 3px;
+    width: 6.3rem;
+    height: 2.3rem;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-main{
+   width: 100%;
+   height: 115vh;
+}
+
+.bg-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-bg-img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 115vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.Text1-block .text1{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Text1-block .text1 #Text2{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 600;
+    font-size: 1.625rem;
+    margin-top: .75rem;
+}
+
+.Text1-block .text1 #Text3{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 500;
+    /* width: 380px; */
+    font-size: 22px;
+    margin-top: 1.75rem;
+}
+
+.input-email .email_text{
+    color: #8c8c8c;
+    font-size: 1.15rem;
+    position: absolute;
+    left: 2.5%;
+    top: 75%;
+    transform: translateY(50%);
+    transition: font .1s ease,top .1s ease,transform .1s ease;
+}
+
+#input-email-box{
+    width: 100%;
+    height: 48px;
+    padding: 10px 10px 0;
+    border-radius: 2px;     
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #8c8c8c;
+}
+
+
+.btn-sum .submit{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 1rem;
+    padding: 0 1em;
+    height: 40px;
+    width: auto;
+    border: 1px transparent ;
+    border-radius: 2px;
+    background-color: #e50914;
+}
+
+.btn-sum .submit .Text-submit{
+    width: 85px;
+    flex: 1 1 auto;
+    padding: .35rem 0;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.mar-right{
+    height: .5rem;
+    width: .35rem;
+    position: relative;
+    flex: 0 1 auto;
+}
+
+.btn-sum svg{
+    width: .4rem;
+    height: 100%;
+    left: 0;
+    margin-top:  0px;
+}
+
+.btn-sum svg path{
+    fill: #fff;
+}
+
+.Text1-block .Layout1{
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.box-animation{
+    border-bottom: 8px solid #222;
+}
+
+.in-box-animation{
+    flex-direction: column;
+}
+
+.layout-animation{
+    margin: .75rem 0 .25rem;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.text1-animation{
+    font-size: 2.625rem;
+}
+
+.text2-animation{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 600;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 1.125rem;
+    margin-top: .75rem;
+}
+
+.animation-main1{
+    margin-bottom: 4rem;
+}
+
+.animation-layout1{
+    overflow: hidden;
+    position: relative;
+    margin-top: -4rem;
+    z-index: -1;
+    text-align: center;
+}
+
+.animation-layout1 img{
+    position: relative;
+    z-index: 1;
+    border: 0;
+    height: auto;
+    width: 85%;
+}
+
+.animation-layout1 .video1{
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    top: 47%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.animation-layout1 video{
+    height: 100%;
+    width: 100%;
+}
+
+.layout-animation2{
+    margin: .75rem 0 .25rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.text1-animation2{
+    font-size: 2.5rem;
+    width: 570px;
+    margin: 0 auto .5rem;
+}
+
+.text2-animation2{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    width: 540px;
+    margin: 0 auto;
+}
+
+.animation-main2{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.animation-layout2{
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+    margin-top: -1.5rem;
+}
+
+.animation-layout2 #img1{
+    width: 83%;
+    height: 83%;
+    max-width: 100%;
+}
+
+.container1{
+    align-items: center;
+    background-color: #000;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: .75rem;
+    width: 57%;
+    display: flex;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%);
+    min-width: 15em;
+    padding: .25rem .65rem;
+    box-shadow: 0 0 2em 0 #000;
+}
+
+#container_text .text1{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+#container_text .text2{
+    font-size: 1em;
+    color: #0071eb;
+}
+
+#img2{
+    height: 4.5rem;
+    max-width: 100%;
+}
+
+#container_text{
+    display: block;
+    margin-left: 1.5rem;
+    text-align: left;
+    flex-grow: 1;
+    /* padding: .65rem; */
+}
+
+#gif{
+    width: 3em;
+    height: 3em;
+}
+
+.box-animation2{
+    border-bottom:  8px solid #222;
+}
+
+.container-text3{
+    text-align: center;
+    border-bottom: 8px solid #222;
+}
+
+.container-text3 .layout-text{
+    margin-bottom: 5rem;
+}
+
+.container-text3 .layout-text .text1{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 700;
+    font-size: 2.75rem;
+    margin-top: 4rem;
+    margin-bottom: .5rem;
+}
+
+.container-text3 .layout-text .text2{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    width: 630px;
+    margin: 0 auto;
+}
+
+.container-text4{
+    text-align: center;
+    border-bottom: 8px solid #222;
+}
+
+.container-text4 .text1{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 800;
+    font-size: 2.75rem;
+    margin-top: 5rem;
+}
+
+.container-text4 .text2{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: .5rem;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.photo-text4{
+    overflow: hidden;
+    position: relative;
+}
+
+.photo-text4 img{
+    height: auto;
+    width: 85%;
+    max-width: 100%;
+    border: 0;
+    margin: 1rem 0 4rem 0;
+}
+
+.qution{
+    text-align: center;
+    border-bottom: 8px solid #222;
+}
+
+.text-qution{
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.text-qution .text1{
+    margin-top: 4rem;
+    font-size: 2.5rem;
+}
+
+.btn-qution{
+    padding: 0;
+}
+
+.btn-qution button,.box-qution{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #303030;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: -.75px;
+    padding: .8em 2.2em .8em 1.2em;
+    position: relative;
+    text-align: left;
+    font-size: 1.25rem;
+    border: none;
+}
+
+.box-qution{
+    width: 100%;
+    width: calc(100% - .1%);
+    display: none;
+    margin-top: .15rem;
+}
+
+.btn-qution button{
+    cursor: pointer;
+}
+
+.btn-qution li{
+    margin: 0 0 8px;
+}
+
+.btn-qution .svg-closed{
+    fill: #fff;
+    height: 1em;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    width: 1em;
+    transform: translateY(-50%);
+}
+
+.btn-qution .svg-icon-thin-x{
+    fill: #fff;
+    height: 1em;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    width: 1em;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.text-email{
+    text-align: center;
+
+}
+
+.text-email .text1 h3{
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 0 auto .5rem;
+    padding: 0 5%;
+    width: 530px;
+}
+
+.input-email2{
+    position: relative;
+}
+
+.input-email2 .email_text{
+    color: #8c8c8c;
+    font-size: 1.15rem;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: font .1s ease,top .1s ease,transform .1s ease;
+}
+
+.input-email2 #input-email-box2{
+    width: 100%;
+    height: 48px;
+    padding: 10px 10px 0;
+    border-radius: 2px;     
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #8c8c8c;
+}
+
+.bottom {
+    text-align: justify;
+    margin-top: 5rem;
+    list-style-type: none;
+    color: #737373;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.select-arrow i{
+    color: white;
+}
+
+.bottom .text1{
+    font-weight: 500;
+    margin-top: 4rem;
+    font-size: 1.25rem;
+}
+
+.bottom ul{
+    font-weight: 500;
+    margin-top: 2rem;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.bottom li {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 0;
+    margin-bottom: 16px;
+    min-width: 100px;
+    padding: 0 12px 0 0;
+    vertical-align: top;
+    width: 20%;
+}
+
+.bottom a{
+    text-decoration: none;
+    position: relative;
+    color: #737373;
+}
+    
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+.end{
+    margin-top: 1rem;
+    font-size: .85rem;
+}
+
+@media (max-width: 767px){
+    .Netflixlogo{
+        margin-left: .5rem;
+        margin-right: auto;
+    }
+
+    .Netflixlogo img{
+        padding-top: 0;
+        height: 3rem;
+        width: auto;
+
+    }
+
+    .select-arrow{
+        border: 1px solid rgb(180, 178, 178);
+        padding: .1rem;
+        border-radius: 3px;
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    .login{
+        margin-left: .8rem;
+        margin-right: 1rem;
+        text-decoration: none;
+        font-size: 1.1rem;
+        padding: .25rem .5rem;
+        background-color: #e50914;
+        color: white;
+        border: 1px;
+        border-radius: 3px;
+        width: 5.3rem;
+        height: 1.9rem;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+    
+    .img-main{
+        width: 100%;
+        height: 125vh;
+     }
+     
+     .bg-image{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+     }
+     
+     .img-bg-img{
+         position: absolute;
+         inset: 0;
+         width: 100%;
+         height: 125vh;
+         background: rgba(0, 0, 0, 0.5);
+     }
+
+    .Text1-block .text1{
+        top: 45%;
+        left: 19%;
+        transform: translate(-20%, -20%);
+    }
+
+    .Text1-block .text1 #Text1{
+        width: 440px;
+        font-size: 1.75rem;
+        margin: 0 auto;
+    }
+
+    .Text1-block .text1 #Text2{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 600;
+        font-size: 1.125rem;
+        margin-top: .75rem;
+    }
+    
+    .Text1-block .text1 #Text3{
+        width: 270px;
+        font-size: 1.1rem;
+        margin: .6rem auto;
+    }
+
+    .input-email .email_text{
+        color: #8c8c8c;
+        font-size: 1.15rem;
+        position: absolute;
+        left: 12%;
+        top: 60%;
+        transform: translateY(60%);
+        transition: font .1s ease,top .1s ease,transform .1s ease;
+    }
+    
+    #input-email-box{
+        width: 80%;
+        height: 58px;
+        padding: 10px 10px 0;
+        border-radius: 2px;     
+        border: none;
+        box-sizing: border-box;
+        font-size: 16px;
+        border: 1px solid #8c8c8c;
+        margin: auto;
+    }
+    
+    
+    .btn-sum .submit{
+        display: inline-flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 1rem;
+        padding: 0 1em;
+        height: 40px;
+        width: auto;
+        border: 1px transparent ;
+        border-radius: 2px;
+        background-color: #e50914;
+    }
+
+   .text2-animation{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 600;
+        width: 350px;
+        margin: 0 auto;
+        font-size: 1.125rem;
+        margin-top: .75rem;
+    }
+
+    .animation-layout1{
+        overflow: hidden;
+        position: relative;
+        margin-top: -1.5rem;
+        z-index: -1;
+        text-align: center;
+    }
+
+    .text1-animation2{
+        font-size: 1.75rem;
+        width: 360px;
+        margin: 0 auto .5rem;
+    }
+
+    
+    .text2-animation2{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 600;
+        font-size: 1.125rem;
+        width: 370px;
+        margin: 0 auto;
+    }
+
+    .container-text3 .layout-text .text1{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 700;
+        font-size: 1.625rem;
+        margin-top: 4rem;
+        margin-bottom: .5rem;
+    }
+
+    .container-text3 .layout-text .text2{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 600;
+        font-size: 1.125rem;
+        width: 330px;
+        margin: 0 auto;
+    }
+
+    .container-text4 .text1{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 800;
+        font-size: 1.625rem;
+        margin-top: 5rem;
+    }
+
+    .container-text4 .text2{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 600;
+        font-size: 1.125rem;
+        margin-top: .5rem;
+        width: 370px;
+        margin: 0 auto;
+    }
+
+    .text-email .text1 h3{
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin: 0 auto .5rem;
+        padding: 0 5%;
+        width: 330px;
+    }
+    
+    #container_text .text1{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 800;
+        font-size: .9rem;
+    }
+
+    #container_text .text2{
+        font-size: .8em;
+        color: #0071eb;
+    }
+
+    #img2{
+        height: 3rem;
+        max-width: 100%;
+    }
+
+    .box-qution{
+        width: 100%;
+        width: calc(100% - .1%);
+        display: none;
+        margin-top: .15rem;
+    }
+
+    .text-qution{
+        font-size: 1.25rem;
+        font-weight: 400;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+    }
+
+    .btn-qution button,.box-qution{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        background-color: #303030;
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: -.75px;
+        padding: .8em 2.2em .8em 1.2em;
+        position: relative;
+        text-align: left;
+        font-size: 1.25rem;
+        border: none;
+    }
+
+    .box-qution{
+        width: 100%;
+        width: calc(100%);
+        display: none;
+        margin-top: .15rem;
+    }
+
+    .input-email2 .email_text{
+        color: #8c8c8c;
+        font-size: 1.15rem;
+        position: absolute;
+        left: 13%;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: font .1s ease,top .1s ease,transform .1s ease;
+    }
+    
+    .input-email2 #input-email-box2{
+        width: 80%;
+        height: 58px;
+        padding: 10px 10px 0;
+        border-radius: 2px;     
+        border: none;
+        box-sizing: border-box;
+        font-size: 16px;
+        border: 1px solid #8c8c8c;
+    }
+
+    .bottom {
+        text-align: justify;
+        margin-top: 5rem;
+        list-style-type: none;
+        color: #737373;
+        width:70%;
+        margin: 0 auto;
+    }
+
+    .bottom .text1{
+        font-weight: 500;
+        margin-top: 4rem;
+        font-size: 1rem;
+    }
+
+    .bottom ul{
+        font-weight: 500;
+        margin-top: 2rem;
+        font-size: .78rem;
+        margin-bottom: 1rem;
+    }
+
+    .bottom li {
+        box-sizing: border-box;
+        display: inline-block;
+        margin-left: 0;
+        margin-bottom: 10px;
+        min-width: 100px;
+        padding: 0 0 0 0;
+        vertical-align: top;
+        width: 0%;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width:950px){
+    .img-main{
+        width: 100%;
+        height: 125vh;
+     }
+     
+     .bg-image{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+     }
+     
+     .img-bg-img{
+         position: absolute;
+         inset: 0;
+         width: 100%;
+         height: 125vh;
+         background: rgba(0, 0, 0, 0.5);
+     }
+
+    .Text1-block .text1{
+        top: 45%;
+        left: 30%;
+        transform: translate(-20%, -20%);
+    }
+
+    .Text1-block .text1 #Text1{
+        width: 590px;
+        font-size: 3.125rem;
+        margin: 0 auto;
+    }
+    
+    .Text1-block .text1 #Text3{
+        width: 420px;
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+
+    .input-email .email_text{
+        color: #8c8c8c;
+        font-size: 1.15rem;
+        position: absolute;
+        left: 12%;
+        top: 75%;
+        transform: translateY(25%);
+        transition: font .1s ease,top .1s ease,transform .1s ease;
+    }
+    
+    #input-email-box{
+        width: 80%;
+        height: 58px;
+        padding: 10px 10px 0;
+        border-radius: 2px;     
+        border: none;
+        box-sizing: border-box;
+        font-size: 16px;
+        border: 1px solid #8c8c8c;
+        margin: auto;
+    }
+    
+    
+    .btn-sum .submit{
+        display: inline-flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 1rem;
+        padding: 0 1em;
+        height: 40px;
+        width: auto;
+        border: 1px transparent ;
+        border-radius: 2px;
+        background-color: #e50914;
+    }
+
+    .input-email2 .email_text{
+        color: #8c8c8c;
+        font-size: 1.15rem;
+        position: absolute;
+        left: 12%;
+        top: 50%;
+        transform: translateY(-45%);
+        transition: font .1s ease,top .1s ease,transform .1s ease;
+    }
+    
+    .input-email2 #input-email-box2{
+        width: 80%;
+        height: 58px;
+        padding: 10px 10px 0;
+        border-radius: 2px;     
+        border: none;
+        box-sizing: border-box;
+        font-size: 16px;
+        border: 1px solid #8c8c8c;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1449px) { 
+    .Netflixlogo{
+        margin-left: 2rem;
+        margin-right: auto;
+    }
+
+    .Netflixlogo img{
+        padding-top: 0;
+        height: 5rem;
+        width: auto;
+
+    }
+
+    .select-arrow{
+        border: 1px solid rgb(180, 178, 178);
+        padding: .6rem;
+        border-radius: 3px;
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    .login{
+        margin-left: 1.5rem;
+        margin-right: 5rem;
+        text-decoration: none;
+        font-size: 1.1rem;
+        padding: .25rem .5rem;
+        background-color: #e50914;
+        color: white;
+        border: 1px;
+        border-radius: 3px;
+        width: 6.3rem;
+        height: 2.9rem;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+    
+    .img-main{
+        width: 100%;
+        height: 115vh;
+     }
+     
+     .bg-image{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+     }
+     
+     .img-bg-img{
+         position: absolute;
+         inset: 0;
+         width: 100%;
+         height: 115vh;
+         background: rgba(0, 0, 0, 0.5);
+     }
+        
+    .Text1-block .text1{
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .Text1-block .text1 #Text1{
+        width: 640px;
+        max-width: 640px;
+        font-size: 3.125rem;
+    }
+
+    .Email-container{
+        display: flex;
+        width: 100%;
+        height: 58px;
+        flex-direction: row;
+        margin: .7rem auto;
+        text-align: center;
+        background-color: #0071eb;
+    }
+
+    .input-email{
+        width: 80%;
+    }
+
+    .input-email .email_text{
+        color: #8c8c8c;
+        font-size: 1.35rem;
+        position: absolute;
+        left: 1.5%;
+        top: 85%;
+        transform: translateY(25%);
+        transition: font .1s ease,top .1s ease,transform .1s ease;
+        margin: 0 auto;
+    }
+    
+    #input-email-box{
+        width: 100%;
+        height: 58px;
+        padding: 10px 10px 0;
+        border-radius: 2px;     
+        border: none;
+        box-sizing: border-box;
+        font-size: 16px;
+        border: 1px solid #8c8c8c;
+    }
+
+    .btn-sum{
+        width: 40%;
+    }
+
+    .btn-sum .submit{
+        display: inline-flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 0 auto;
+        padding: 0 2em;
+        height: 58px;
+        width: 100%;
+        border: 1px transparent ;
+        border-radius: 1px;
+        background-color: #e50914;
+    }
+
+    .btn-sum .submit .Text-submit{
+        width: auto;
+        flex: 1 1 auto;
+        padding: .35rem 0;
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 600;
+        font-size: 1.625rem;
+        text-align: center;
+        color: white;
+    }
+
+    .mar-right{
+        height: .5rem;
+        width: .35rem;
+        position: relative;
+        flex: 0 1 auto;
+    }
+    
+    .btn-sum svg{
+        width: .6rem;
+        height: 100%;
+        left: 0;
+        margin-top: 0px;
+    }
+
+    .box-animation{
+        margin-top: 3rem;
+        border-bottom: 8px solid #222;
+    }    
+
+    .in-box-animation{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .layout-animation{
+        margin: 6rem 6rem auto;
+        text-align: left;
+    }
+
+    .text1-animation{
+        font-size: 3.125rem;
+    }
+    
+   .text2-animation{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 500;
+        width: 540px;
+        margin: 0 auto;
+        font-size: 1.625rem;
+        margin-top: .75rem;
+    }
+
+    .animation-layout1{
+        overflow: hidden;
+        position: relative;
+        margin: -.7rem -6rem auto;
+        z-index: -1;
+        text-align: center;
+    }
+    
+    .animation-layout1 img{
+        position: relative;
+        z-index: 1;
+        border: 0;
+        height: auto;
+        width: 80%;
+    }
+
+    .in-box-animation2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .layout-animation2{
+        margin: 7rem 10rem 6rem 0;
+        text-align: left;
+    }
+    
+    .text1-animation2{
+        font-size: 3.125rem;
+        width: 480px;
+        margin: 0 auto;
+    }
+    
+    .text2-animation2{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 600;
+        font-size: 1.625rem;
+        width: 480px;
+        margin: 0 auto;
+    }
+
+    .container-text3{
+        text-align: left;
+        border-bottom: 8px solid #222;
+    }
+
+    .container-text3 .layout-text{
+        margin-left: 8rem;
+    }
+
+    .container-text3 .layout-text .text1{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 700;
+        font-size: 3.125rem;
+        margin: 4rem 0 .5rem 0;
+    }
+
+    .container-text3 .layout-text .text2{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 600;
+        font-size: 1.625rem;
+        width: 460px;
+        margin: 0 0 -2rem 0;
+    }
+
+    .container-text4{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left; 
+        border-bottom: 8px solid #222;
+    }
+
+    .container-text4 .layout-text{
+        margin: 0 8rem 0 0;
+    }
+
+    .container-text4 .text1{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 800;
+        font-size: 3.125rem;
+        margin-top: 10rem;
+    }
+
+    .container-text4 .text2{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 600;
+        font-size: 1.625rem;
+        margin-top: .5rem;
+        width: 530px;
+        margin: 0 auto;
+    }
+
+    .photo-text4 img{
+        height: auto;
+        width: 80%;
+        max-width: 100%;
+        border: 0;
+        margin: 5rem 0 4rem 5rem;
+    }
+
+    .text-email .text1 h3{
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin: 0 auto .5rem;
+        padding: 0 5%;
+        width: 600px;
+    }
+
+    .animation-layout2{
+        overflow: hidden;
+        position: relative;
+        z-index: -1;
+        margin: 1.5rem 3rem 0 0;
+    }
+    
+    .animation-layout2 #img1{
+        width: 84%;
+        height: 80%;
+        max-width: 100%;
+    }
+    
+    #container_text .text1{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-weight: 800;
+        font-size: 1.125rem;
+    }
+
+    #container_text .text2{
+        font-size: 1em;
+        color: #0071eb;
+    }
+
+    #img2{
+        height: 4.9rem;
+        max-width: 100%;
+        padding: .3rem 0 0 0;
+    }
+
+    #gif{
+        width: 3em;
+        height: 3em;
+    }
+
+    .box-qution{
+        width: 100%;
+        width: calc(100% - .1%);
+        display: none;
+        margin-top: .15rem;
+    }
+
+    .text-qution{
+        width: 60%;
+        margin: 0 auto 4rem ;
+    }
+
+    .text-qution .text1{
+        margin: 4rem 0 2rem 0;
+        font-size: 3.5rem;
+    }
+
+    .btn-qution button,.box-qution{
+        display: block;
+        margin: .2rem auto 0;
+        width: 100%;
+        background-color: #303030;
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: -.75px;
+        padding: .8em 2.2em .8em 1.2em;
+        position: relative;
+        text-align: left;
+        font-size: 1.25rem;
+        border: none;
+    }
+
+    .box-qution{
+        width: 100%;
+        width: calc(100%);
+        display: none;
+    }
+
+    .container_email{
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .Email-container2{
+        display: flex;
+        width: 100%;
+        height: 58px;
+        flex-direction: row;
+        margin: -1rem auto;
+        text-align: center;
+    }
+
+    .input-email2{
+        width: 80%;
+    }
+
+    .input-email2 .email_text{
+        color: #8c8c8c;
+        font-size: 1.15rem;
+        position: absolute;
+        left: 2.5%;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: font .1s ease,top .1s ease,transform .1s ease;
+    }
+    
+    .input-email2 #input-email-box2{
+        width: 100%;
+        height: 58px;
+        padding: 10px 10px 0;
+        border-radius: 2px;     
+        border: none;
+        box-sizing: border-box;
+        font-size: 16px;
+        border: 1px solid #8c8c8c;
+    }
+
+    .bottom {
+        text-align: justify;
+        margin-top: 5rem;
+        list-style-type: none;
+        color: #737373;
+        width:70%;
+        margin: 0 auto;
+    }
+
+    .bottom .text1{
+        font-weight: 500;
+        margin-top: 4rem;
+        font-size: 1.125rem;
+    }
+
+    .bottom ul{
+        font-weight: 500;
+        margin-top: 2rem;
+        font-size: .95rem;
+        margin-bottom: .8rem;
+    }
+
+    .bottom li {
+        box-sizing: border-box;
+        display: inline-block;
+        margin-left: 0;
+        margin-bottom: 12px;
+        min-width: 200px;
+        padding: 0 0 0 0;
+        vertical-align: top;
+        width: 0%;
+    }
+    
+    
+    
+}

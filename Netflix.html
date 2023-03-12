@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Netflixmain">
+        <div class="Layout">
+            <div class="mainLayout"> <!-- ไม่ได้ใช้ไม่จำเป็นต้องใส่ก็ได้ -->
+                <div class="barNetflix">
+                    <div class="barLayout"> <!-- ไม่ได้ใช้ไม่จำเป็นต้องใส่ก็ได้ -->
+                        <span class="Netflixlogo">
+                            <img src="Photo/Netflix_Logo_PMS.png" alt="">
+                        </span>
+                        <div class="select-bar">
+                            <div class="select-bar-item">
+                                <div class="select-arrow">
+                                    <i class="fas fa-globe"></i> 
+                                    <select name="lauguage" id="lauguage-select" class="lauguage-drop-down">
+                                        <option value="TH">ไทย</option>
+                                        <option value="en">English</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>    
+                        <a href="#" class="login">
+                            เข้าสู่ระบบ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Text1-block">
+        <div class="Layout1">
+            <div class="img-main">
+                <img src="Photo/CA-en-20230109-popsignuptwoweeks-perspective_alpha_website_large.jpg" alt="" class="bg-image">
+            </div>
+            <div class="img-bg-img"></div>
+            <div class="text1">
+                <h1 id="Text1">
+                    ภาพยนตร์ รายการทีวี และความบันเทิงอีกมากมายแบบไม่จำกัด
+                </h1>
+                <h2 id="Text2">
+                    รับชมได้ทุกที่ ยกเลิกได้ทุกเมื่อ
+                </h2>
+                <h3 id="Text3">
+                    หากพร้อมรับชม ป้อนอีเมลเพื่อสร้างหรือเริ่มต้นการเป็นสมาชิกอีกครั้ง
+                </h3>
+                <div class="Email-container">
+                    <div class="input-email">
+                        <input type="email" name="email-box" id="input-email-box">
+                        <label for="" class="email_text after_text">ที่อยู่อีเมล</label>
+                    </div>        
+                    <div class="btn-sum">
+                        <button type="submit" class="submit" onclick="window.location.href='#'">
+                            <span class="Text-submit">
+                                เริ่มต้นใช้งาน
+                            </span>
+                            <span class="mar-right"></span>
+                            <svg viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg">
+                                <desc>
+                                    chevron
+                                </desc>
+                                <path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" fill="none" fill-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-animation">
+        <div class="in-box-animation">
+            <div class="layout-animation">
+                <h1 class="text1-animation">
+                    รับชมได้ในทีวี
+                </h1>
+                <h2 class="text2-animation">
+                    รับชมได้ในสมาร์ททีวี Playstation, Xbox, Chromecast, Apple TV เครื่องเล่น Blu-ray และอีกมากมาย
+                </h2>
+            </div>
+            <div class="animation-main1">
+                <div class="animation-layout1">
+                    <img src="Photo/tv.png" alt="">
+                    <div class="video1">
+                        <video autoplay loop>
+                            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-animation2">
+        <div class="in-box-animation2">
+            <div class="layout-animation2">
+                <h1 class="text1-animation2">
+                    ดาวน์โหลดเนื้อหาไว้รับชมออฟไลน์
+                </h1>
+                <h2 class="text2-animation2">
+                    บันทึกเนื้อหาโปรดได้ง่ายๆ และมีความบันเทิงพร้อมให้รับชมอยู่เสมอ
+                </h2>
+            </div>
+            <div class="animation-main2">
+                <div class="animation-layout2">
+                    <img src="Photo/mobile-0819.jpg" alt="" id="img1">
+                    <div class="container1">
+                        <div class="photo-download">
+                            <img src="Photo/boxshot.png" alt="" id="img2">
+                        </div>
+                        <div id="container_text">
+                            <div class="text1">สเตรนเจอร์ ธิงส์</div>
+                            <div class="text2">กำลังดาวน์โหลด...</div>
+                        </div>
+                        <div class="gif-download">
+                            <img src="Photo/download-icon.gif" alt="" id="gif">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-text3">
+        <div class="layout-text">
+            <h1 class="text1">รับชมได้ทุกที่</h1>
+            <h2 class="text2">สตรีมภาพยนตร์และรายการทีวีได้ไม่จำกัดในโทรศัพท์ แท็บเล็ต แล็ปท็อป และทีวี</h2>
+        </div>
+    </div>
+    <div class="container-text4">
+        <div class="layout-text">
+            <h1 class="text1">สร้างโปรไฟล์สำหรับเด็ก</h1>
+            <h2 class="text2">เปิดโลกแห่งการผจญภัยให้บุตรหลานด้วยตัวละครโปรดในโปรไฟล์มุมเด็กที่คุณจะใช้งานได้ฟรีเมื่อสมัครสมาชิก</h2>
+        </div>
+        <div class="photo-text4">
+            <img src="Photo/AAAABfpnX3dbgjZ-Je8Ax3xn0kXehZm_5L6-xe6YSTq_ucht9TI5jwDMqusWZKNYT8DfGudD0_wWVVTFLiN2_kaQJumz2iivUWbIbAtF.png" alt="">
+        </div>
+    </div>
+    <div class="qution">
+        <div class="text-qution">
+            <h1 class="text1">คำถามที่พบบ่อย</h1>
+            <ul class="btn-qution">
+                <li>
+                    <button>
+                        Netflix คืออะไร
+                        <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
+                    </button>
+                    <div class="box-qution">
+                        <span class="answer">
+                            Netflix คือบริการสตรีมมิงที่นำเสนอความบันเทิงหลากหลายครบรส ทั้งรายการทีวี ภาพยนตร์ อนิเมะ สารคดีที่ชนะรางวัล และอีกมากมาย รับชมความบันเทิงทั้งหมดได้ในอุปกรณ์ที่เชื่อมต่ออินเทอร์เน็ตจำนวนหลายพันรายการ
+                            <br>
+                            <br>
+                            รับชมได้มากตามต้องการได้ทุกที่ที่ต้องการโดยไม่มีโฆษณาคั่น ด้วยค่าบริการรายเดือนราคาต่ำราคาเดียว ค้นพบความบันเทิงใหม่ๆ ได้ตลอดเวลา รวมทั้งรายการทีวีและภาพยนตร์ที่มีเพิ่มเข้ามาทุกสัปดาห์!
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <button>
+                        ค่าใช้จ่ายในการใช้บริการ Netflix
+                        <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
+                    </button>
+                    <div class="box-qution">
+                        <span class="answer">
+                            ดู Netflix ได้ทั้งในสมาร์ทโฟน แท็บเล็ต สมา﻿ร์ททีวี แล็ปท็อป หรืออุปกรณ์สตรีมมิง ด้วยค่าบริการรายเดือนราคาเดียว ราคาแพ็คเกจเริ่มต้นที่ 99 บาท ถึง 419 บาท ต่อเดือน ไม่มีค่าใช้จ่ายเพิ่มเติม ไม่มีสัญญาผูกมัด
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <button>
+                        รับชมได้จากที่ไหนบ้าง
+                        <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
+                    </button>
+                    <div class="box-qution">
+                        <span class="answer">
+                            ดูได้ทุกที่ ทุกเวลา เข้าสู่ระบบโดยใช้บัญชี Netflix ของคุณเพื่อรับชมทันทีผ่านทางเว็บไซต์ที่ netflix.com รับชมในคอมพิวเตอร์ส่วนตัวหรืออุปกรณ์ที่เชื่อมต่อกับอินเทอร์เน็ตที่มีแอป Netflix ติดตั้ง รวมทั้งสมาร์ททีวี สมาร์ทโฟน แท็บเล็ต เครื่องเล่นมีเดียสตรีมมิงและคอนโซลเกม
+                            <br>
+                            <br>
+                            นอกจากนี้ยังสามารถดาวน์โหลดรายการโปรดโดยใช้แอป iOS, Android หรือ Windows 10 ใช้การดาวน์โหลดเพื่อรับชมขณะเดินทางและเมื่อไม่ได้เชื่อมต่ออินเทอร์เน็ต รับชม Netflix ได้ทุกเมื่อไม่ว่าที่ไหน
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <button>
+                        วิธียกเลิก
+                        <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
+                    </button>
+                    <div class="box-qution">
+                        <span class="answer">
+                            Netflix ยืดหยุ่นไม่เรื่องมาก ไม่มีสัญญาและข้อผูกมัดกวนใจ ยกเลิกบัญชีออนไลน์ทำได้ง่ายแสนง่ายในสองคลิก ไม่มีค่าธรรมเนียมการยกเลิก เริ่มใช้หรือหยุดใช้งานบัญชีได้ทุกเมื่อ
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <button>
+                        ความบันเทิงที่รับชมได้ทาง Netflix
+                        <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
+                    </button>
+                    <div class="box-qution">
+                        <span class="answer">
+                            Netflix มีคลังความบันเทิงครบรส ทั้งภาพยนตร์เรื่องยาว สารคดี รายการทีวี อนิเมะ ผลงานจาก Netflix ที่ชนะรางวัล และอีกมากมาย รับชมได้ไม่จำกัดได้ทุกเวลาตามต้องการ
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <button>
+                        Netflix เหมาะสำหรับเด็กไหม
+                        <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
+                    </button>
+                    <div class="box-qution">
+                        <span class="answer">
+                            การใช้งานมุมเด็กของ Netflix จะรวมอยู่ในการเป็นสมาชิกของคุณเพื่อมอบการควบคุมให้ผู้ปกครองในขณะที่บุตรหลานรับชมรายการทีวีและภาพยนตร์ที่เหมาะสำหรับครอบครัวโดยใช้โปรไฟล์ของตนเอง
+                            <br>
+                            <br>
+                            โปรไฟล์มุมเด็กจะมาพร้อมการควบคุมของผู้ปกครองที่มีการป้องกันด้วยรหัส PIN ซึ่งคุณจะจำกัดระดับความเหมาะสมของเนื้อหาที่อนุญาตให้บุตรหลานรับชมและบล็อกเนื้อหาที่ไม่ต้องการให้รับชมได้
+                        </span>
+                    </div>
+                </li>
+            </ul>
+            <div class="container_email">
+                <div class="text-email">
+                    <div class="text1">
+                        <h3>
+                            หากพร้อมรับชม ป้อนอีเมลเพื่อสร้างหรือเริ่มต้นการเป็นสมาชิกอีกครั้ง
+                        </h3>
+                    </div>
+                </div>
+                <div class="Email-container2">
+                    <div class="input-email2">
+                        <input type="email" name="email-box" id="input-email-box2">
+                        <label for="" class="email_text after_text">ที่อยู่อีเมล</label>
+                    </div>      
+                    <div class="btn-sum">
+                        <button type="submit" class="submit" onclick="window.location.href='#'">
+                            <span class="Text-submit">
+                                เริ่มต้นใช้งาน
+                            </span>
+                            <span class="mar-right"></span>
+                            <svg viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg">
+                                <desc>
+                                    chevron
+                                </desc>
+                                <path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" fill="none" fill-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <p class="text1">
+            หากมีคำถาม โทร 
+            <a href="#">
+                1-800-012-294
+            </a>
+        </p>
+        <ul>
+            <li>
+                <a href="#">คำถามที่พบบ่อย</a>
+            </li>
+            <li>
+                <a href="#">ศูนย์ช่วยเหลือ</a>
+            </li>
+            <li>
+                <a href="#">บัญชี</a>
+            </li>
+            <li>
+                <a href="#">ศูนย์สื่อมวลชน</a>
+            </li>
+            <li>
+                <a href="#">นักลงทุนสัมพันธ์</a>
+            </li>
+            <li>
+                <a href="#">ตำแหน่งงาน</a>
+            </li>
+            <li>
+                <a href="#">แลกบัตรของขวัญ</a>
+            </li>
+            <li>
+                <a href="#">ซื้อบัตรของขวัญ</a>
+            </li>
+            <li>
+                <a href="#">วิธีรับชม</a>
+            </li>
+            <li>
+                <a href="#">ข้อกำหนดการใช้งาน</a>
+            </li>
+            <li>
+                <a href="#">ความเป็นส่วนตัว</a>
+            </li>
+            <li>
+                <a href="#">การตั้งค่าคุกกี้</a>
+            </li>
+            <li>
+                <a href="#">ข้อมูลบริษัท</a>
+            </li>
+            <li>
+                <a href="#">ติดต่อเรา</a>
+            </li>
+            <li>
+                <a href="#">ทดสอบความเร็ว</a>
+            </li>
+            <li>
+                <a href="#">ประกาศแจ้งทางกฎหมาย</a>
+            </li>
+            <li>
+                <a href="#">ที่ Netflix เท่านั้น</a>
+            </li>
+        </ul>
+        <div class="select-bar">
+            <div class="select-bar">
+                <div class="select-bar-item">
+                    <div class="select-arrow">
+                        <i class="fas fa-globe"></i> 
+                        <select name="lauguage" id="lauguage-select" class="lauguage-drop-down">
+                            <option value="TH">ไทย</option>
+                            <option value="en">English</option>
+                        </select>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <p class="end">
+            Netflix ไทย
+            <br>
+            Website Clone By Nakarin samon
+        </p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
